@@ -3,8 +3,8 @@ version: "3.8"
 services:
   express:
     build:
-      context: .
-      dockerfile: ./Dockerfile
+      context: . # path
+      dockerfile: Dockerfile
     command: node index.js
     ports:
       - "3000:3000"
