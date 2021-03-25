@@ -5,6 +5,5 @@ services:
     build:
       context: . # path
       dockerfile: Dockerfile
-    command: node index.js
     ports:
       - "3000:3000"
